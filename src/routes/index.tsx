@@ -176,15 +176,15 @@ function Index() {
       <header className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground/70">
-            Réseau Canopé · Vadémécum 4
+            R3SEAU CANOP3 · N0TICIA & VAD3M3CUM 4
           </p>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Générateur de fiche Noticia
+            Générateur de fiche N0ticia
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Déposez le programme d'une formation au format PDF. L'assistant rédige une notice
-            complète conforme aux spécifications Noticia : titre, accroche, descriptif, objectifs
-            pédagogiques et prérequis.
+            Déposez le programme d'une formation au format PDF.&nbsp;
+            <br />
+            L'assistant rédige une notice complète conforme aux spécifications N0ticia : titre, accroche, descriptif, objectifs pédagogiques et prérequis.
           </p>
         </div>
       </header>
