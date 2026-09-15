@@ -10,11 +10,11 @@ import { FORMATS, INTENSITES, MODALITES, THEMATIQUES } from "@/lib/noticia-optio
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Générateur de fiche Noticia — notices de formation Réseau Canopé" },
+      { title: "Générateur de fiche N0ticia" },
       {
         name: "description",
         content:
-          "Déposez le programme PDF d'une formation et obtenez une notice Noticia conforme au Vadémécum 4 : titre, accroche, descriptif, objectifs Bloom.",
+          "Déposez le document PDF de votre proposition de formation et obtenez une notice N0ticia conforme au Vadémécum : titre, accroche, descriptif, objectifs Bloom.",
       },
       { property: "og:title", content: "Générateur de fiche Noticia" },
       {
