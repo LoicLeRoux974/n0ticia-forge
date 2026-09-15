@@ -216,7 +216,7 @@ function Index() {
               <div className="space-y-2">
                 <Upload className="mx-auto size-6 text-primary" />
                 <p className="text-sm font-medium text-foreground">
-                  Déposez le document PDF de la formation
+                  Déposez le document PDF de votre proposition (programme, grandes idées...)
                 </p>
                 <p className="text-xs text-muted-foreground">ou cliquez pour parcourir (10 Mo max)</p>
               </div>
