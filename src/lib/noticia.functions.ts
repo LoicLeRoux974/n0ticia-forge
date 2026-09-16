@@ -49,6 +49,23 @@ const OUTPUT_INSTRUCTIONS = `Tu dois répondre UNIQUEMENT par un objet json vali
 }
 Règles impératives : respecter toutes les limites de caractères, aucun emoji, aucun sigle non explicité dans le titre et l'accroche. Si une information est absente du document, propose la valeur la plus plausible et signale-la dans "alertes".`;
 
+/**
+ * Normalise un texte de référence (prompt système, vadémécum) avant injection :
+ * - Unicode NFC (accents décomposés -> forme composée)
+ * - apostrophes et guillemets typographiques -> caractères ASCII droits
+ * - suppression des caractères de contrôle et des accents graves isolés
+ * Évite qu'un caractère spécial corrompe la requête envoyée au modèle.
+ */
+export function normaliserTexteReference(texte: string): string {
+  return texte
+    .normalize("NFC")
+    .replace(/[’‘‛]/g, "'")
+    .replace(/[“”«»]/g, '"')
+    .replace(/[‐‑‒–—]/g, "-")
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "")
+    .replace(/`/g, "'");
+}
+
 function extractJson(raw: string): unknown {
   const cleaned = raw.replace(/```json/gi, "").replace(/```/g, "").trim();
   try {
@@ -116,7 +133,7 @@ ${OUTPUT_INSTRUCTIONS}`,
         messages: [
           {
             role: "system",
-            content: `${NOTICIA_SYSTEM_PROMPT}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${VADEMECUM_TEXT}`,
+            content: `${normaliserTexteReference(NOTICIA_SYSTEM_PROMPT)}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${normaliserTexteReference(VADEMECUM_TEXT)}`,
           },
           { role: "user", content },
         ],
