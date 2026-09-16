@@ -182,7 +182,7 @@ function Index() {
             Générateur de fiche N0ticia
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Déposez le programme d'une formation au format PDF.&nbsp;
+            Déposez le document PDF de votre proposition (programme, grandes idées...)&nbsp;
             <br />
             L'assistant rédige une notice complète conforme aux spécifications N0ticia : titre, accroche, descriptif, objectifs pédagogiques et prérequis.
           </p>
