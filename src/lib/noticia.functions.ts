@@ -133,7 +133,7 @@ ${OUTPUT_INSTRUCTIONS}`,
         messages: [
           {
             role: "system",
-            content: `${NOTICIA_SYSTEM_PROMPT}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${VADEMECUM_TEXT}`,
+            content: `${normaliserTexteReference(NOTICIA_SYSTEM_PROMPT)}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${normaliserTexteReference(VADEMECUM_TEXT)}`,
           },
           { role: "user", content },
         ],
