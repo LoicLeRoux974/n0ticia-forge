@@ -74,7 +74,7 @@ function Champ({
 }) {
   return (
     <label className="block">
-      <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+      <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-foreground">
         {label}
       </span>
       <select
@@ -225,7 +225,7 @@ function Index() {
           {erreurFichier && <p className="text-sm text-destructive">{erreurFichier}</p>}
 
           <label className="block">
-            <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+            <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-foreground">
               Informations complémentaires (facultatif)
             </span>
             <textarea
