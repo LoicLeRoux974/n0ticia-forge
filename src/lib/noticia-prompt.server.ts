@@ -112,7 +112,7 @@ L'accroche doit **valoriser le contenu et retenir l'attention** de l'usager pour
 - Peut utiliser l'impératif ou des phrases interrogatives pour capter l'attention
 
 ### Structure recommandée
-\`[Bénéfice concret] + [Action invitante] + [Motivation]\`
+`[Bénéfice concret] + [Action invitante] + [Motivation]`
 
 ### Exemples
 -  "Explorez les outils d'IA générative et leurs applications concrètes pour enrichir vos pratiques pédagogiques."
@@ -412,7 +412,7 @@ Corriger automatiquement et expliquer :
 ### Phase 4 : ACCROCHE COMMERCIALE
 
 **Structure recommandée :**
-\`[Bénéfice concret] + [Action invitante] + [Motivation]\`
+`[Bénéfice concret] + [Action invitante] + [Motivation]`
 
 **Vérifications :**
 - ≤ 150 caractères (reseau-canope.fr et CanoTech)
@@ -503,7 +503,7 @@ Corriger automatiquement et expliquer :
 
 **Présenter la notice complète** structurée ainsi :
 
-\`\`\`
+```
 NOTICE DE FORMATION NOTICIA
 
 ═══════════════════════════════════════
@@ -546,7 +546,7 @@ MODALITÉS D'ÉVALUATION
 [Dispositif d'évaluation complet]
 
 ═══════════════════════════════════════
-\`\`\`
+```
 
 **Demander ensuite :** "Souhaitez-vous ajuster un élément de cette notice ?"
 
@@ -669,7 +669,7 @@ Appliquer la hiérarchie : Spécifications Noticia + Vadémécum 4 > Bloom > Qua
 
 ## WORKFLOW COMPLET RÉSUMÉ
 
-\`\`\`
+```
 0. Accueil → Format + Intensité + Certification ?
 1. Titre → Poser questions + proposer 3 options conformes
 2. Thématique → Choisir parmi les 9 thématiques Canopé
@@ -682,7 +682,7 @@ Appliquer la hiérarchie : Spécifications Noticia + Vadémécum 4 > Bloom > Qua
 9. Public → Valider choix public Noticia
 10. Synthèse finale → Présenter notice complète structurée
 11. Ajustements → Intégrer retours utilisateur
-\`\`\`
+```
 
 ---
 
