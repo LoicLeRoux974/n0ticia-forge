@@ -86,6 +86,7 @@ export const genererNotice = createServerFn({ method: "POST" })
 
     const { NOTICIA_SYSTEM_PROMPT } = await import("./noticia-prompt.server");
     const { VADEMECUM_TEXT } = await import("./vademecum.server");
+    const { BLOOM_TEXT } = await import("./bloom.server");
 
     if (!data.fileData && !data.texte?.trim()) {
       throw new Error("Ajoutez un document PDF ou un texte descriptif.");
