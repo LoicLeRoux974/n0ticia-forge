@@ -47,7 +47,7 @@ const OUTPUT_INSTRUCTIONS = `Tu dois répondre UNIQUEMENT par un objet json vali
   "evaluation": "dispositif d'évaluation Qualiopi si intensité Certification ou perfectionnement financé, sinon chaîne vide",
   "alertes": ["point de vigilance ou information manquante dans le document source"]
 }
-Règles impératives : respecter toutes les limites de caractères, aucun emoji, aucun sigle non explicité dans le titre et l'accroche. Si une information est absente du document, surtout ne pas inventer et signale-la dans "alertes".`;
+Règle absolue de non-invention : utilise uniquement les informations explicitement présentes dans le document source, les informations complémentaires fournies par l'utilisateur et les valeurs imposées dans les contraintes de génération. Si une information nécessaire à la notice est absente, inconnue ou non vérifiable, ne la déduis pas, ne la suppose pas et ne la complète pas avec une valeur plausible. Laisse le champ vide, sauf lorsqu'une valeur par défaut est explicitement autorisée par les règles Noticia. Ajoute chaque information manquante ou incertaine dans le tableau "alertes", en précisant exactement ce qui doit être vérifié ou complété par le formateur. Ne présente jamais une hypothèse comme un fait établi.`;
 
 /**
  * Normalise un texte de référence (prompt système, vadémécum) avant injection :
