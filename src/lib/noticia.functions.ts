@@ -134,7 +134,7 @@ ${OUTPUT_INSTRUCTIONS}`,
         messages: [
           {
             role: "system",
-            content: `${normaliserTexteReference(NOTICIA_SYSTEM_PROMPT)}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${normaliserTexteReference(VADEMECUM_TEXT)}`,
+            content: `${normaliserTexteReference(NOTICIA_SYSTEM_PROMPT)}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${normaliserTexteReference(VADEMECUM_TEXT)}\n\n---\n\nTAXONOMIE DE BLOOM (référence complète pour les objectifs pédagogiques) :\n\n${normaliserTexteReference(BLOOM_TEXT)}`,
           },
           { role: "user", content },
         ],
