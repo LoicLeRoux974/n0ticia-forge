@@ -47,7 +47,7 @@ const OUTPUT_INSTRUCTIONS = `Tu dois répondre UNIQUEMENT par un objet json vali
   "evaluation": "dispositif d'évaluation Qualiopi si intensité Certification ou perfectionnement financé, sinon chaîne vide",
   "alertes": ["point de vigilance ou information manquante dans le document source"]
 }
-Règles impératives : respecter toutes les limites de caractères, aucun emoji, aucun sigle non explicité dans le titre et l'accroche. Si une information est absente du document, propose la valeur la plus plausible et signale-la dans "alertes".`;
+Règles impératives : respecter toutes les limites de caractères, aucun emoji, aucun sigle non explicité dans le titre et l'accroche. Si une information est absente du document, surtout ne pas inventer et signale-la dans "alertes".`;
 
 /**
  * Normalise un texte de référence (prompt système, vadémécum) avant injection :
