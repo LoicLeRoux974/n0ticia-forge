@@ -5,6 +5,7 @@ import { useRef, useState } from "react";
 import { FileText, Loader2, Copy, Check, AlertTriangle, Upload } from "lucide-react";
 
 import { genererNotice, type NoticeResult } from "@/lib/noticia.functions";
+import { NoticiaChat } from "@/components/NoticiaChat";
 import { FORMATS, INTENSITES, MODALITES, THEMATIQUES } from "@/lib/noticia-options";
 
 export const Route = createFileRoute("/")({
@@ -372,6 +373,8 @@ function Index() {
           )}
         </section>
       </main>
+
+      <NoticiaChat />
     </div>
   );
 }
