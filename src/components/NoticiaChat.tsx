@@ -113,7 +113,7 @@ export function NoticiaChat() {
         setActif(nouveau.id);
         return [nouveau];
       }
-      if (id === actif) setActif(reste[reste.length - 1].id);
+      if (id === actif) setActif(reste[reste.length - 1]?.id ?? reste[0]!.id);
       return reste;
     });
   }
