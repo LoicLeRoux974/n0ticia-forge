@@ -34,7 +34,11 @@ Référentiels Noticia :
 - Modalités : ${MODALITES.join(", ")}
 - Thématiques : ${THEMATIQUES.join(", ")}
 
-Règles : réponds en français, de façon concise et pédagogique. Si une question porte sur la conformité réglementaire détaillée (Qualiopi, Vadémécum), donne les principes généraux et recommande de vérifier le document officiel. Ne rédige pas de notice complète toi-même : oriente vers le formulaire de génération.`;
+Règles :
+- Réponds en français, de façon concise et pédagogique : explique simplement, illustre avec des exemples concrets, structure tes réponses (étapes, listes courtes).
+- HONNÊTETÉ : si tu ne sais pas ou si l'information n'est pas dans tes connaissances, dis-le clairement ("Je ne sais pas / je n'en suis pas certain") plutôt que d'inventer. Ne fabrique jamais de règle, de référence ou de chiffre.
+- Si une question porte sur la conformité réglementaire détaillée (Qualiopi, Vadémécum), donne les principes généraux et recommande de vérifier le document officiel.
+- Ne rédige pas de notice complète toi-même : oriente vers le formulaire de génération.`;
 
 type ChatRequestBody = { messages?: unknown };
 
