@@ -123,7 +123,7 @@ export function NoticiaChat() {
       <button
         onClick={() => setOuvert(true)}
         aria-label="Ouvrir l'assistant"
-        className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-opacity hover:opacity-90"
+        className="fixed top-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-opacity hover:opacity-90"
       >
         <MessagesSquare className="size-4" />
         Assistant
@@ -132,7 +132,7 @@ export function NoticiaChat() {
   }
 
   return (
-    <aside className="fixed bottom-6 right-6 z-40 flex h-[min(640px,calc(100vh-3rem))] w-[min(420px,calc(100vw-2rem))] flex-col overflow-hidden rounded-xl border border-border bg-card shadow-2xl">
+    <aside className="fixed top-6 right-6 z-40 flex h-[min(640px,calc(100vh-6rem))] w-[min(420px,calc(100vw-2rem))] flex-col overflow-hidden rounded-xl border border-border bg-card shadow-2xl">
       <div className="flex items-center justify-between border-b border-border px-4 py-3">
         <h2 className="text-sm font-semibold text-foreground">Assistant Noticia</h2>
         <div className="flex items-center gap-1">
