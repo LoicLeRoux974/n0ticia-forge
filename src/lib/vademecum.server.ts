@@ -1,677 +1,796 @@
 // Texte extrait du Vadémécum 4 (Réseau Canopé) — base réglementaire.
-export const VADEMECUM_TEXT = `E
-
-FRANÇAISE c'ano P || BIS IEETE]
- JRI€[s[€]a]u]-[c[AIn[o]e]e[.
-
- C|A
- RÉSEAU DE FORMATION DES ENSEIGNANTS
-
- Du comité
- de lecture
- au Vadémécum 4
- Quelle/réorganisation
- nationale pour respecter
- les règles de description
- des offres ?
-
- DDRF
- Septembre 2025
-Préambule
-
- Réseau Canopé se donne pour objectif d'accroître la lisibilité et l’attractivité de son
- offre auprès de nos partenaires nationaux et internationaux. Cette quatrième
- version du vadémécum est un levier pour y parvenir.
- Réseau Canopé slruclure les orienlalions de l'offre de formalion à parlir de
- standards documentaires, organisationnels, métiers et procéduraux déjà mis en
- place ou à venir, conformément à la note d'orientation stratégique 2025-2026. En
- tant qu'organisme de formation, Réseau Canopé déploie des formations et
- propose un large éventail d'offres qui concourent au développement des
- compétences professionnelles.
-
- Pour assurer une plus forte lisibilité de notre offre, cette nouvelle version du
- vadémécum (V4) s'appuie sur :
-
- — un principe d'harmonisation de la description à I'ensemble de l'offre ;
- —Un principe de clarté et de précision de l'offre, reflet de la qualité scientifique,
- pédagogique et d'ingénierie (syntaxe adaptée sur la forme et usage d'un lexique
- adapté au champ lexical du domaine concerné);
- —Un principe de non-redondance et de complémentarité entre les champs de
- description.
-
- A quoi sert le vadémécum ?
- - Guider la description de toutes les offres de Réseau Canopé dans Noticia
- — Donner les règles de saisie pour chacun des champs du logiciel de gestion des
- offres Noticia.
-
- Comment se présente-il ?
- Il suit l'ordre logique de publication dans Noticia : les champs pour la suggestion,
- puis les champs à compléter pour la publication.
-
- Un outil d’appropriation, sous la forme d'une synthèse qui résume les informations
- essentielles, est disponible en fin de fascicule.
-Introduction
-
- Quels sont les points saillants de cette nouvelle version ?
-
- - Généralisation de l’application du vadémécum à l'ensemble des produits de
- formalion (définis ci-dessous) de Réseau Canopé el non plus uniquemenl aux
- saisies effecluées dans Nolicia.
- - Transfert de la responsabilité de la conformité des règles de description du
- vadémécum aux différentes directions métiers et directions territoriales
-
- — Adaptation des règles de description selon le produit ou l'offre proposés : des
- règles allégées de description sont prévues pcur les événements pédagogiques
- (animations, ateliers, conférences) et les webinaires. Ces produits ne suivent pas les
- étapes de la démarche qualité en formation’.
-
- Principe
- Tous les produits de formation publiés sur les plateformes sont concernés par les règles du Vadémécum 4 :
- - Réseau Canopé, ses pages spécifiqueset ses plateformes associées nationales (Valeurs de la République [VDLR],
- eTwinning, J'enseigne en maternelle [JEM], Premiers pas dans le métier d’enseignant [PPME], etc.), européenne
- (eTwinning) et internationales (Nectar, Defik, etc.);
-
- - Territoires numériques éducatifs (TNE) ;
-
- - CanoTech;
-
- — les parcours en autoformation :
-
- - Magistère,
-
- — e-INSPÉ.
-
-1 Voir annexe 1 « Qualiopi et les actions de formation » (note de la DDRF, octobre 2024).
-La qualification
-des produits de formation
-et la classification des offres
-entre les différentes
-plateformes
-(Noticia, CanoTech...)
-
-Proposition
-L'ensemble des offres de Réseau Canopé participe à une dynamique formative. Pour obtenir des
-indicateurs cohérents (en lien avec le Contrat d'objectifs et de performance [Coperf] et le bilan
-pédagogique et financier annuel), il est essentiel de classifier les différentes offres dans Noticia.
-
- Rappel juridique
- Conformément à l’article L. 6313-2 du Code du travail : « L'action de formation [...] se définit comme un parcours
- pédagogique permettant d'atteindre un objectif professionnel. Elle peut être réalisée en tout ou partie à
- distance. Elle peut également être réalisée en situation de travail. »
-
-Ainsi, nous proposons d'utiliser les formats de Noticia de la manière suivante :
-— formation : cette catégorie concerne uniquement les offres de formation professionnelle continue
- (telles que définies par l'article 6 de la loi n° 2018-771 du 5 septembre 2018 pour la liberté de choisir son
- avenir professionnel, y compris dans la fonction publique, cf. I'arrété du 1°' août 2023 relatif à la
- formation et à l'accompagnement personnalisé des agents publics) ; les formations doivent respecter
- l’ensemble des critères et indicateurs Qualiopi de la démarche qualité?, notamment les objectifs
- opérationnels et les modalités d'évaluation. Les règles de description sont celles du Vadémécum 4 ;
-— animation ou ateliers à distance, hybride ou en présence : cette catégorie comprend tous les
- webinaires (CanoTech et Réseau Canopé), les ateliers et les animations. Ces formats ne relèvent
- généralement pas de la formation professionnelle continue, car ils ne respectent pas la réglementation.
- Cette catégorie doit respecter les règles de description des offres du Vadémécum 4, mais sans les
- exigences spécifiques liées aux formations ;
-
-2 Actuellement Qualiopi pour Réseau Canopé
-— conférence en présence ou à distance : cette catégorie doit respecter les règles de description des
- offres du Vadémécum 4, mais sans les exigences spécifiques liées aux formations ;
-— concours, salon : ces actions doivent respecter les règles de description des offres du Vadémécum 4,
- mais sans les exigences spécifiques liées aux formations.
-
-Cette nouvelle catégorisation permet d'extraire les actions de formation professionnelle pour renseigner
-correctement le Bilan pédagogique et financier (BPF). Toutefois, dans le cadre de la remontée des
-indicateurs, I'ensemble des actions — telles que les webinaires, les animations et les ateliers - sont bien
-regroupées sous l'indicateur « formation ».
-Comment penser
-la transmission
-du Vadémécum 4
-dans toutes les directions
-territoriales, métiers
-et communautés
-thématiques du réseau ?
-
-Communication
-En amont de la campagne de communication liée à l'application rigoureuse du Vadémécum 4, la directrice
-de la Direction du déploiement et de la réussite (DDRF) annonce la fin de l’instance Comité de lecture le
-9 juillet 2025.
-En octobre 2025, une communication émanant de la direction générale annonce aux directeurs
-territoriaux, directeurs territoriaux adjoints et directeurs métiers les nouveaux process liés à la qualité de
-la description des offres.
-En complément, les personnes référentes (indiquées dans le tableau ci-dessous, en partie III.) seront un
-relais d'information au sein de toutes les directions (territoriales et métiers) en assurant la communication
-de proximité.
-
-Accompagnement et formation interne
-Parallèlement à la communication, et pour accompagner ce changement, des interventions via la Fabrique
-et le Dojo seront planifiées.
-
-Les membres permanents du comité de lecture se rendront disponibles pour assurer ces temps
-d’accompagnement et de formation auprès des directions métiers et des directions territoriales. Le pôle
-Qualité et amélioration continue de la DDRF sera également une cellule support pour accompagner et
-organiser cette démarche. Des accompagnements spécifiques seront prévus, en plus, pour s’assurer de la
-bonne maîtrise du vadémécum en territoires par les pôles de formation et d'innovation.
-Un plan de communication et d'accompagnement détaillé et opérationnel sera proposé en
-septembre 2025.
-Comment assurer
-une bonne communication
-et une bonne application
-du Vadémécum 4
-au sein de Réseau Canopé ?
-Dès le début du process de production d'offre, le vadémécum doit servir de guide pour rédiger la
-description et garantir la cohérence des informations.
-Pour les offres de formation locales, les pôles de formation et innovation de chaque DT sont garants du
-respect des règles du vadémécum. La cellule qualité de la direction du déploiement et de la réussite de la
-formation (DDRF) procède à des vérifications par sondage et pourra revenir vers les responsables
-concernés si nécessaire.
-Pour assurer la description des offres mutualisées nationales, il est nécessaire d'identifier des personnes
-expertes du vadémécum dans l‘ensemble des directions métiers (DOOF, DDRF, DPF, DMD, DEl) qui
-participent aux instances, notamment le comité des projets, afin de garantir, dès le départ, le respect des
-règles du vadémécum.
-Par ailleurs, lorsqu’une fiche d'opportunité ou une fiche de réingénierie de formation est soumise, il est
-essentiel de s’appuyer systématiquement sur le vadémécum pour leur rédaction.
-
-Liste des interlocuteurs garants de l'application du Vadémécum 4
-
- DIRECTION FONCTION/PRODUIT REFERENT
-
- DOOF Responsable du domaine de I'offre Delphine CUNY
- Compétences du xxI* siècle
- Responsable du domaine de I'offre Emeline VANTHUYNE
- École de la réussite
-
- Responsable du domaine de I'offre Sandrine YOUX
- Adopter des pratiques pédagogiques
-
- DDRF CLEM Christophe HÉRON
-
- Coordinatrice des offres mutualisées Anne-Cécile CALLÉJON
-
- Formatrice de formateurs Blandine GAUDIO
-
- TNE Amélie GUÉRIN
-DIRECTION FONCTION/PRODUIT REFERENT
-
-DDRF/DPF Magistère Christophe HÉRON
- Benjamin PICHON
-
-DPF CanoTech Fabienne SOUCHET
- - Renforcer la coéducation ;
- — Faire classe à tous les élèves ;
- — Favoriser le bien-être professionnel
-
- Magali DE HARO SANCHEZ
- - Éviter l’échec scolaire ;
- — Adapter ses gestes et postures
- professionnels ;
- - Évaluer ;
- - Enseigner avec les sciences cognitives
- Julie BETTON
- - Développer l'autonomie des élèves ;
- - Oser les pédagogies actives ;
- - Faire classe dehors
- Julie LAVALARD
- - Éduquer à la transition écologique et
- sociale ;
- - Agir pour le bien-être des élèves
- Céline FRESQUET
- - Lutter contre le harcèlement
- Sandie BRUJEAN
- - Enseigner avec le numérique
- e-INSPÉ
-
-DMD Solutions documentaires Christelle FILLONNEAU
-
- CPro Véronique PELLEGRIN
-
-DEl eTwinning Sylvain PERQUE
-
- Offres internationales Sabine PERAUDEAU
-
-CLEMI Pôle Laboratoire formation Elsie RUSSIER
-
-DT Hauts-de-France Pôle formation et innovation
-
-DT Normandie Pôle formation et innovation
-
-DT Grand-Est Pôle formation et innovation
-
-DT Île-de-France Pôle formation et innovation
- Directeur territorial adjoint, conseiller
- technique, chargé d'ingénierie de
-DT Bretagne-Pays de la Loire Pôle formation et innovation formation, gestionnaire de formation
-
-DT Centre Val de Loire Pôle formation et innovation
-
-DT Bourgogne-Franche-Comté Pôle formation et innovation
-
-DT Nouvelle-Aquitaine Pôle formation et innovation
- DIRECTION FONCTION/PRODUIT REFERENT
-
- DT Auvergne-Rhône-Alpes Pôle formation et innovation
- Directeur territorial adjoint, conseiller
- -
- DT Occitanie
- N o et innovation
- Pôle formation
- N technique, chargé d‘ingénierie de
- formation, gestionnaire de formation
-
- DT Provence-Alpes-Côte-d'Azur Pôle formation et innovation
-
- DA Réunion
-
- DA Guadeloupe
- Directeur académique, conseiller
- DA Martinique technique, chargé d'ingénierie de
- formation, gestionnaire de formation
- DA Guyane
-
- DA Corse
-
-Vadémécum d’aide
-à la description
-et à la rédaction
-des offres (V4)
-Voir page suivante.
-Le présent vadémécum concerne la description sur Noticia-GFAC. Cependant, il doit également être pris
-en main par les équipes de la direction des produits de formation (DPF) en charge de la production et de
-la description des modules d'autoformation, comme Magistere, e-INSPÉ, etc.
- Ao
-E [r[e[s|e/a[o]-1c/a[n[o[r[e]-}7[r RIRN
-
-FRANCAISE C A
-Liberté RÉSEAU DE FORMATION DES ENSEIGNANTS
-Égalité
-Fraternité
-
- Vadémécum
- (version 4)
- Aide/à ladescription et
- à la rédaction des offres
- de Réseau Canopé
-
- DDRF
- Septembre 2025
-Table des matières
-Préambule
-Avant de créer la notice dans Noticia, il est indispensable d'avoir conçu l'ingénierie de formation.
-
-Les règles orthotypographiques
-Retrouver le process de déclaration des offres sur le wiki (Lien).
-
- Le document « L'essentiel des règles orthotypographiques » est également à votre disposition. Il a pour vocation
- de permettre à tous les acteurs qui ont à produire des notices de s’accorder sur des éléments typographiques de
- base et, plus largement, de travailler sur une charte orthotypographique commune.
-
-Onglet « Offre » - Noticia-GFAC
-ITITRE}
-Le titre doit être court et capter l'attention du public. Il doit respecter les règles suivantes :
-— ne pas dépasser 150 signes (espaces compris) sur reseau-canope.fr ;
-— ne pas dépasser 80 signes (espaces compris) sur CanoTech ;
-— exprimer clairement la problématique ou l'angle de la formation, sans adopter la forme d'une accroche
- publicitaire, d'un slogan ou d‘une question ;
-— ne pas inclure d'information sur le format (atelier, formation, etc.), ni sur la date, le lieu ou le public
- ciblé ;
-— ne pas commencer par un verbe ;
-— ne pas comporter de verbe conjugué ;
-— éviter les termes trop généraux ou les disciplines entières (ex. : « Les neurosciences à l'école ») ;
-— ne pas citer de marques, d’outils spécifiques ou de dispositifs locaux ;
-— éviter les sigles méconnus du grand public (ex. : EBEP, EDD, EMI, EMC);
-— ne pas utiliser de guillemets dans I'intitulé.
-
-L'outil Noticia propose une liste déroulante de huit formats d'activités :
-— formation : session avec un objectif d’apprentissage opérationnel et évaluable (acquisition,
- perfectionnement ou consolidation de connaissances) ;
-— atelier : découverte avec manipulation de ressources, d’outils, ou partage de pratiques pédagogiques ;
-— animation : session dédiée à la présentation sans manipulation de ressources et d’outils. À privilégier
- dans le cadre d'une médiation de ressources ou d'un webinaire ;
-— conférence : exposé réalisé par un ou plusieurs intervenants sur une thématique donnée ;
-— table ronde : discussion, débat autour d’un sujet, au cours desquels les participants expriment leur
- point de vue ;
-— salon : événement thématique autour d’exposants ;
-— exposition : présentation d’'affiches, de produits, d’objets ou de productions autour d'un thème ;
-— concours : compétition entre plusieurs personnes sur un thème donné.
-
- 12
- EFORMES)
-
-Plateformes de publication
-Si ce champ n'est pas renseigné, l'offre sera automatiquement publiée sur reseau-canope.fr. Dans le cas
-contraire, il faut sélectionner la plateforme souhaitée pour la diffusion de l'offre.
-
- Attention
- Pour certaines pages, |'affichage sur le site ne dépend pas uniquement du choix de la plateforme. En cas de doute,
- contacter les personnes responsables des plateformes concernées.
-
- Dans l'attente de développements ultérieurs de Noticia, une notice est rattachée à une seule plateforme. En cas
- de doute, contacter les personnes responsables des plateformes concernées.
-
-Plateformes de valorisation
-Champ non opérant actuellement, ne pas le compléter.
-
-ITHEMATIQUE
-Ce champ est obligatoire pour que I'offre soit visible sur reseau-canope.fr. Les thématiques® actuelles sur
-Noticia, correspondant aux orientations stratégiques de l'établissement, sont :
-— Bien-être à l’école ;
-— Coéducation ;
-— École inclusive ;
-— Éducation à la transition écologique et sociale ;
-— Éducation aux médias et à l’information ;
-— Éducation aux valeurs de la République ;
-— Numérique en éducation ;
-— Pratiques pédagogiques et méthodologiques ;
-— Sport à l’école.
-Chaque thématique est découpée en plusieurs sous-thématiques.
-
- Rappel
- Si votre offre est à destination de CanoTech, vous devez d‘abord vous rapprocher d’un chef de projet national
- CanoTech (pour connaître la personne à contacter en fonction de la thématique, voir tableau p. 7-9), puis du
- pôle de formation et d'innovation de votre direction territoriale.
-
- 13
-Quelques conseils pour vous aider à choisir quelle case cocher
-— Le sujet prime sur la méthode pédagogique.
-— Il est conseillé de ne pas choisir plus de deux thématiques.
-— Si une sous-thématique est choisie, sa thématique générale est automatiquement cochée. Pour
- décocher une thématique générale, il faut donc qu'aucune de ses sous-thématiques ne soit cochée.
-
-MODALITES DE FORMATION
-Actuellement, cette liste déroulante comprend trois modalités différentes :
-— en présence : offre réalisée en présentiel et dans un lieu identifié ;
-— à distance : offre réalisée entièrement à distance ;
-— en présence/à distance : offre hybride.
-
-INTENSITE|
-Quatre niveaux d'intensité sont proposés, correspondant au niveau de compétences de l’offre :
-— initiation : sessions de remise à niveau ou d'initiation à des compétences ou techniques transversales ;
-— perfectionnement : sessions s’adressant à un public de personnes déja opérationnelles dans leur
- activité professionnelle, mais qui désirent approfondir leurs compétences ou acquérir des
- compétences supplémentaires. Cette intensité suppose obligatoirement l'évaluation de prérequis au
- début de la formation ;
-— professionnalisation/expertise : sessions ayant des objectifs proches de la certification, mais ne
- donnant lieu à aucun diplôme, titre ou certificat inscrit au RNCP ;
-— certification : formation sanctionnée par le passage d’une certification (diplôme, titre, certificat de
- qualification professionnelle). Par exemple, PIX.
-
-VISA ET CASES A COCHER
-Le visa « Comité de lecture » actuellement présent dans Noticia n'est plus donné à partir de la rentrée
-2025, en raison del'arrêt des séances du comité de lecture. Un visa « Conforme au vadémécum en vigueur »
-sera mis en place en octobre 2025. Comme pour le visa « Comité de lecture », une fois ce nouveau visa
-apposé par le responsable du pôle formation et innovation de la DT en charge de Noticia ou, dans le cas
-des offres internationales, par les ingénieurs de formation de la DEl en charge de Noticia, les champs de la
-notice ne seront plus modifiables. En direction académique (DA), ce nouveau visa sera apposé par le
-directeur académique ou par le responsable formation de la DA.
-
-MOTS-CLES]
-Les offres s'affichent en fonction des mots-clés indiqués dans la fiche Service Noticia. Les mots-clés sont
-
- 14
-Onglet pédagogique - Noticia
-
-Choisir un ou plusieurs niveaux d'enseignement dans le menu déroulant :
-— maternelle ;
-— élémentaire ;
-— collège ;
-—lycée ;
-— tous niveaux.
-
-PUBLICS CIBLES
-Il s'agit du public à qui l'offre de service est destinée. Plusieurs choix sont possibles.
-
- Cas particuliers
- - « Tous publics » concerne toute la communauté éducative.
-
- — « Autre » concerne un public spécifique qui ne fait pas partie de la communauté éducative. Ce public doit être
- précisé dans le descriptif.
-
-PREREQUI
-Il s'agit des connaissances nécessaires à |'usager pour participer à la session.
-Les prérequis doivent être évalués au début de la formation.
-
- Attention
- Dans le cadre des formations d‘intensité « Perfectionnement », ce champ doit obligatoirement être complété.
-
-JOBJECTIFS}
-Chaque objectif doit pouvoir compléter la phrase suivante : « À la fin de la formation, le stagiaire sera en
-capacité de... »
-— Décliner la demande en 1 à 3 objectifs en fonction de la durée et de I'ambition pédagogique.
-— Pour un format court, se limiter à 1 ou 2 objectifs maximum : cela garantit la clarté de la session et
- maximise les chances d’atteinte effective des résultats d'apprentissage.
-Les objectifs doivent être rédigés à l'aide de la taxonomie de Bloom, un outil qui vous aide à choisir le bon
-niveau d'apprentissage attendu. Chaque objectif doit comporter un verbe d'action clair qui reflete
-l’intention pédagogique et le niveau cognitif visé.
-
- 15
-Voici les six niveaux de la taxonomie de Bloom, du plus simple au plus complexe :
- 1. Connaissance - ex. : identifier, nommer, lister.
- 2.Compréhension - ex. : expliquer, reformuler, illustrer.
- 3. Application - ex. : utiliser, mettre en œuvre, manipuler.
- 4. Analyse - ex. : comparer, distinguer, décomposer.
- 5. Évaluation - ex. : critiquer, justifier, argumenter.
- 6. Création (synthèse) - ex. : concevoir, produire, inventer.
-
-Dans le cadre de la formation
-Les objectifs doivent étre opérationnels et évaluables.
-La formulation des objectifs pédagogiques ne doit pas utiliser des verbes comme « connaître », « savoir »,
-« comprendre » ou « découvrir ». Ces verbes, bien qu'intuitifs, ne permettent pas d'identifier clairement
-l'action attendue chez l'apprenant, ni la manière dont on pourra vérifier l'atteinte de l'objectif. Ces verbes
-sont dits « non opérationnels », car ils ne décrivent pas une performance observable ni mesurable.
-
- 16
-Des exemples de verbes à utiliser pour rédiger des objectifs
-
- LES VERBES ANALYSE
- ps
-
- Arranger
- r cha Calculer Ca :Êmﬁïr
- Catalogues " Classifier Classer Ctl P
- CÎ'B' Clanﬁar_ Compléter Comparer N uire
- Distinguer Convertir N Conclure Projeter
- E ” Décri Contrôler Contraster Considérer p
- Ênlag;stler Diné"œ N Démontrer Corréler Convaincre Reclaterpns“
- c
- numérer .
- rencier Effectuer
- m
- Critiquer
- i Établit Débattre i
- E“q"ﬁts' !" Employer Décomposer A Compiler Fléorganlser
- Identifier Exprimer Exécuter Délimiter Décider c , Schématiser
- Indiquer Extrapoler Déduire poses Soutenir
- L Fai Gérer Détecter dre Concevoir Spécifi
- el aire Mustrer Discriminer M” r Constituer | 3Pécitier
- Mem?nser lmerp_oler Informer Diviser " Construire Sltucl'uref
- Mentionner Localiser Éval Estimer Dériver Substituer
- Montrer Ordonner Manipuler E:ar:::e . Explique Développer Synthétiser
- Juger A ransm
- Nommer :'a‘rafuhraser Mettre en pratique Expérimenter Jﬁir ier plscmar T ettre
- g"’““’:: u Opérer Inférer Mesurer Écrire
- Raoon :Ê:W ‘ Pratiquer Interpréter Noter Élaborer
- Rîp_peler R Æwr Rédiger Modéliser Persuader Formuler
- éciter A e inir Résoudre Nuancer Peser Généraliser
- :Êm naitre Refor "mle Restructurer Rechercher Prédire Imaginer
- R pé:zf R rmuler Simuler Relier Recommander Intégrer
- R:tp;n' uire Regro«per Traiter Séparer Résumer Inventer
-
- ; ler
- s.© rappe T::l i g T er Subdiviser Sélectionner Modifier
- uire Utiliser Vérifier A Organiser
- Situer Transformer Standardiser
- Tester
- Valider
-— Utiliser des listes à puces.
-— Effectuer une description détaillée des différents sujets traités dans la session, en cohérence avec les
- objectifs et finalités définis au préalable.
-— Ne pas répéter le ou les objectifs, ni le descriptif.
-
-MODALITES 'AGOGIQUES)
-Il s’agit de toutes les modalités mises en œuvre dans le déroulement de la formation, qui peuvent se
-combiner durant la session de formation.
-
- Exemples
- Mise en situation, retour sur expérience, partage des pratiques, travaux collaboratifs, individualisation de la
- formation, brainstorming, manipulation (outils numériques), ludification (quiz, serious game, etc.), lecture de
- documents, etc.
-
-MODALITES VALUATION]|
-Obligatoire uniquement dans le cadre d'une formation.
-Il faut a minima deux évaluations :
-— une évaluation diagnostique individuelle en amont ou au démarrage de la formation ;
-— une évaluation en fin de formation permettant d'apprécier que les objectifs pédagogiques et de
- formation ont été atteints par l'apprenant.
-Une évaluation en cours de formation peut également étre proposée, selon la durée de l’action.
-
-Onglet commercial - Noticia
-IACCROCHE COMMERCIALE
-L’accroche doit valoriser le contenu et retenir l’attention de I'usager (avec par exemple l'utilisation de
-l'impératif ou de phrases interrogatives), pour le motiver à participer. Sur reseau-canope.fr et sur
-CanoTech, elle est visible dans les résultats de recherche de service et, globalement, dans les listes d'offres
-de service.
-— Elle ne doit pas dépasser 300 signes (espaces compris) sur reseau-canope.fr.
-— Elle ne doit pas dépasser 150 signes (espaces compris) sur CanoTech.
-— Elle ne doit pas comprendre de sigles.
-
- 18
-DESCRIPTIF}
-Différent de l’accroche commerciale, le descriptif correspond au texte affiché sur la page de description
-de l'offre, juste en dessous du titre.
-
-Caractéristiques
-— C’est un résumé rédigé au présent, qui indique ce qui va être proposé de manière chronologique,
- neutre et sans jugement ;
-— Il décrit l'offre en 600 signes (espaces compris) ;
-— C’est dans ce champ que les intervenants extérieurs peuvent être mentionnés avec
- leur fonction.
-
- Autorégulation et feedbacks dans les
- apprentissages e 18 soptembre 2025
- o M septembre 2025
- o 10 actobra 2025
-
- —
- Ce webinaire aborde les conditions de l'autorégulation de l'activité o@e@
- cognitive, les feedbacks de l'enselgnant etles gestes pédagogiques
- qui contribuent à renforcer e sentiment d'officacité personnelle,
- levier majeur del'engagement des élèves, Ges derniers peuvent ainsl développer des stratégies pour
- planifier, contrôler et évaluer Jeurs apprentissages.
-
- A PROGRAMME VOUS AIMEREZ AUSSI
-
- Objectifl) PR
- Gonsot cientfquede
- Fducation …
- # Caractériserles concepts d'autorégulation et de feedback
- = Repérer des gostes favorisant le sentiment d'efficacité personnelle de lélève Consulter >
- contenu - e Les fecdbacks de
- lenseignant on classe
- = Les conditions de l'autorégulation : métacognition, sentiments métacognltfs, etc.
- = Les feedbacks de l'enseignant
- = Les gestes préconisés pour tendre vers la compétence cognitive "S'autnévaluer positivement”
- Pour aller plus loin: Ressources du groupe de travail - Métacognition et confiance en soi - surle
- site du Conseil scientifique de l'éducation nationale (CSEN)
-
-Page de description de l’offre. Le descriptif correspond au paragraphe
-en dessous de la rubrique « C’est pour vous ! ».
-
- 19
-POINTS CLES]
-
-Créer une offre dans Noticia
-
-Titre Cibles
-— Clair, sans slogan — Choisir le niveau scolaire
- ni format, date ou public +le public visé
-— Pas d'outil, marque ou sigle — Prérequis à indiquer (obligatoire
-— 150 signes maxi (espaces compris) à partir de « Perfectionnement »)
- 80 signes maxi sur CanoTech
-
- Objectifs
-Plateformes — Formulés avec des verbes d’action
-— Publication = site principal (taxonomie de Bloom)
- de diffusion — 2 objectifs maxi pour un format court
-— Valorisation : inopérant actuellement — Objectifs de formation
- = observables et évaluables
-
-Thématique
-— 9 domaines (ex. : école inclusive, Pédagogie
- numérique, etc.) — Contenu = liste à puces, précis, sans doublon
-— 2 thématiques maxi par offre avec descriptif ou objectifs
-— Sujet > méthode — Modalités variées : jeux, travaux collaboratifs,
- retour d’expérience...
-
-Format
- Formation | Atelier | Animation | Conférence Évaluation
- Table ronde | Salon | Exposition | Concours — Pour les formations : 2 évaluations minimum
- (diagnostique au début +
- finale pour mesurer atteinte des objectifs)
-
-Modalités
- En présence | À distance |
- En présence/à distance Commercial
- — Accroche : ton engageant, pas de sigle
- 300 signes maxi (espaces compris)
-Intensité 150 signes maxi sur CanoTech
- — Descriptif : clair, chronologique, mention
- Initiation | Perfectionnement |
- des intervenants
- Professionnalisation | Certification
- 600 signes maxi (espaces compris)
-Qualiopi et
-les actions de formation
-[Note de la DDRF, octobre 2024]
-
-Pour rappel, la loi n° 2018-771 du 5 septembre 2018 pour la liberté de choisir son avenir professionnel
-prévoit dans son article 6 une obligation de certification, par un organisme tiers, des organismes réalisant
-des actions concourant au développement des compétences sur la base d'un référentiel national unique,
-s'ils veulent bénéficier de fonds publics ou mutualisés (financement par un opérateur de compétences,
-par l’État, par les régions, par la Caisse des dépôts et consignations, par France Travail ou par l’Agefiph).
-
-Depuis le 24 décembre 2021, Réseau Canopé est certifié Qualiopi au titre de I'action de formation.
-Selon la loi de 2018, une action de formation se définit comme un « parcours pédagogique permettant
-d'atteindre un objectif professionnel. Elle peut être réalisée en tout ou partie à distance »*.
-L’arrêté du 1 août 2023 relatif à la formation et l’accompagnement personnalisé des agents publics® a
-clarifié les caractéristiques et les éléments constitutifs d'une action de formation. Comme le souligne la
-lettre du PAJ parue en janvier 2024 : « L'arrêté soumet les actions de formation proposées ouvertes aux
-agents publics à certains standards promus par le référentiel Qualiopi régi par le Code du travail. Il apparaît
-une volonté manifeste de l'État de garantir dans la fonction publique une lisibilité et une qualité des actions
-de formation comparables à celles applicables dans le secteur privé.
-
-En conséquence, l’ensemble des actions de formation proposées par Réseau Canopé dans le cadre de la
-formation professionnelle doit répondre à ces nouvelles exigences réglementaires, que ces actions de
-formation soient opérées directement par l'établissement au profit de ses publics ou qu'elles soient mises
-en œuvre dans le cadre de conventions conclues avec des partenaires institutionnels (rectorats, EAFC,
-collectivités territoriales, etc.). »
-
-Les exigences à respecter pour des actions de formation
-au sens de Qualiopi
-L'action de formation doit viser à atteindre un ou plusieurs objectifs pédagogiques dans le cadre d'un
-parcours de formation. Cela implique la mise en place d'une véritable ingénierie pédagogique en amont
-de la réalisation effective de la formation. Le « parcours de formation » doit ainsi respecter une progression
-logique conforme aux indicateurs du référentiel national Qualiopi.
-
-4 Article L. 6111-1 du Code du travail modifié par la loi n° 2022-1598 du 21 décembre 2022
-
- 21
-Parmi les étapes essentielles de ce parcours, on trouve :
-— l’analyse des besoins en amont de la formation (indicateur 4) ;
-—la cohérence entre les objectifs de la formation et les besoins identifiés (indicateur 5) ;
-— l’adéquation du contenu de la formation (durée, modalités, etc.) avec les objectifs visés (indicateur 6) ;
-— le positionnement préalable des participants (indicateur 8) ;
-— l’évaluation des acquis d’apprentissage pour mesurer l’atteinte des objectifs (indicateur
- 11).
-D’autres exigences s’appliquent en aval comme la collecte des appréciations des participants à l’issue de
-la formation (indicateur 30).
-
-Tous les formats visant le développement professionnel ne répondent pas nécessairement à l’ensemble
-des critères exigés par le référentiel Qualiopi. Il est donc essentiel de distinguer les actions de formation
-conformes à cette nouvelle réglementation interministérielle des autres types d’actions, comme les
-séminaires ou conférences, qui, bien qu'ils contribuent au développement professionnel, ne permettent
-pas d'évaluer formellement les acquis d'apprentissage.
-En résumé, toutes les actions de formation proposées par Réseau Canopé dans le cadre de la formation
-professionnelle, indépendamment du mode de financement, doivent respecter les exigences de qualité
-définies dans le référentiel Qualiopi. Cette démarche qualité, fondée sur une ingénierie de formation,
-constitue un cadre structurant pour la conception et la mise en œuvre de nos offres de formation.
-
- 22
+# Vadémécum 4 — Description et rédaction des offres de Réseau Canopé
+
+> **Version :** 4  
+> **Date :** septembre 2025  
+> **Source :** Direction du déploiement et de la réussite de la formation — Réseau Canopé  
+> **Usage :** référentiel de référence pour décrire et rédiger les offres de Réseau Canopé dans Noticia-GFAC et sur les plateformes associées.
+
+## 0. Règles d’utilisation de ce document
+
+Ce Vadémécum constitue le document de référence pour la description des offres de formation de Réseau Canopé.
+
+Pour toute création ou réécriture d’une offre :
+
+1. respecter en priorité les règles du présent Vadémécum ;
+2. distinguer les champs de description des champs commerciaux ;
+3. éviter les redondances entre titre, accroche, descriptif, objectifs et contenus ;
+4. ne jamais ajouter une information qui n’est pas connue ou fournie ;
+5. adapter les exigences au format de l’offre ;
+6. appliquer les exigences spécifiques à la formation professionnelle uniquement lorsqu’elles sont pertinentes.
+
+---
+
+# 1. Finalités et principes généraux
+
+## 1.1. Finalités
+
+Le Vadémécum vise à :
+
+- accroître la lisibilité de l’offre de Réseau Canopé ;
+- renforcer son attractivité auprès des partenaires nationaux et internationaux ;
+- harmoniser la description de l’ensemble des offres ;
+- garantir la clarté et la précision des informations ;
+- refléter la qualité scientifique, pédagogique et d’ingénierie des offres ;
+- utiliser un lexique adapté au domaine concerné ;
+- assurer la complémentarité entre les différents champs de description ;
+- éviter les répétitions et les redondances.
+
+## 1.2. À quoi sert le Vadémécum ?
+
+Il sert à :
+
+- guider la description de toutes les offres de Réseau Canopé dans Noticia ;
+- préciser les règles de saisie pour chaque champ du logiciel Noticia-GFAC ;
+- accompagner les équipes qui produisent ou décrivent les offres ;
+- contribuer à la cohérence des offres publiées sur les différentes plateformes.
+
+## 1.3. Produits et plateformes concernés
+
+Les règles du Vadémécum 4 concernent les produits de formation publiés sur :
+
+- le site de Réseau Canopé et ses pages spécifiques ;
+- les plateformes nationales associées, notamment :
+  - Valeurs de la République ;
+  - eTwinning ;
+  - J’enseigne en maternelle ;
+  - Premiers pas dans le métier d’enseignant ;
+- les plateformes européennes et internationales ;
+- les Territoires numériques éducatifs ;
+- CanoTech ;
+- les parcours en autoformation, notamment :
+  - Magistère ;
+  - e-INSPÉ.
+
+Le Vadémécum doit également être utilisé par les équipes chargées de la production et de la description des modules d’autoformation.
+
+---
+
+# 2. Qualification des produits de formation
+
+## 2.1. Principe général
+
+L’ensemble des offres de Réseau Canopé participe à une dynamique formative.
+
+Pour disposer d’indicateurs cohérents, notamment dans le cadre du Contrat d’objectifs et de performance et du bilan pédagogique et financier annuel, les offres doivent être correctement classifiées dans Noticia.
+
+## 2.2. Définition juridique de l’action de formation
+
+Conformément à l’article L. 6313-2 du Code du travail :
+
+> « L’action de formation [...] se définit comme un parcours pédagogique permettant d’atteindre un objectif professionnel. Elle peut être réalisée en tout ou partie à distance. Elle peut également être réalisée en situation de travail. »
+
+## 2.3. Formats et niveau d’exigence
+
+### Formation
+
+La catégorie **formation** concerne les offres de formation professionnelle continue.
+
+Une formation :
+
+- vise un objectif d’apprentissage opérationnel et évaluable ;
+- permet l’acquisition, le perfectionnement ou la consolidation de connaissances et de compétences ;
+- doit respecter l’ensemble des exigences applicables à la démarche qualité ;
+- doit notamment comporter des objectifs opérationnels et des modalités d’évaluation ;
+- doit respecter les règles de description du Vadémécum 4.
+
+### Atelier
+
+La catégorie **atelier** concerne une activité de découverte, de manipulation ou de partage de pratiques.
+
+Elle peut être organisée :
+
+- en présence ;
+- à distance ;
+- en format hybride.
+
+Les ateliers ne relèvent généralement pas de la formation professionnelle continue lorsqu’ils ne respectent pas l’ensemble des exigences réglementaires applicables aux formations.
+
+### Animation
+
+La catégorie **animation** concerne une session dédiée principalement à la présentation, sans manipulation de ressources ou d’outils.
+
+Elle est notamment à privilégier pour :
+
+- une médiation de ressources ;
+- une présentation ;
+- un webinaire.
+
+### Conférence
+
+La catégorie **conférence** concerne un exposé réalisé par un ou plusieurs intervenants sur une thématique donnée.
+
+### Table ronde
+
+La catégorie **table ronde** concerne une discussion ou un débat au cours duquel les participants expriment leur point de vue.
+
+### Salon
+
+La catégorie **salon** concerne un événement thématique organisé autour d’exposants.
+
+### Exposition
+
+La catégorie **exposition** concerne la présentation d’affiches, de produits, d’objets ou de productions autour d’un thème.
+
+### Concours
+
+La catégorie **concours** concerne une compétition entre plusieurs personnes sur un thème donné.
+
+## 2.4. Conséquence pour les indicateurs
+
+La catégorisation permet d’identifier les actions relevant de la formation professionnelle pour renseigner correctement le bilan pédagogique et financier.
+
+Cependant, pour la remontée des indicateurs, les actions telles que :
+
+- les webinaires ;
+- les animations ;
+- les ateliers ;
+
+peuvent être regroupées sous l’indicateur « formation ».
+
+---
+
+# 3. Gouvernance et application du Vadémécum
+
+## 3.1. Responsabilité de la conformité
+
+La responsabilité de la conformité aux règles de description est transférée aux différentes directions métiers et directions territoriales.
+
+## 3.2. Moment d’utilisation
+
+Le Vadémécum doit être utilisé dès le début du processus de production de l’offre.
+
+Il sert à :
+
+- rédiger la description ;
+- garantir la cohérence des informations ;
+- préparer les fiches d’opportunité ;
+- préparer les fiches de réingénierie de formation ;
+- vérifier la conformité de l’offre avant publication.
+
+## 3.3. Rôle des équipes
+
+Pour les offres locales :
+
+- les pôles de formation et d’innovation des directions territoriales garantissent le respect des règles ;
+- la cellule qualité de la DDRF réalise des vérifications par sondage ;
+- des corrections peuvent être demandées si nécessaire.
+
+Pour les offres mutualisées nationales :
+
+- des personnes expertes du Vadémécum doivent être identifiées dans les directions métiers ;
+- ces personnes participent notamment aux instances liées aux projets ;
+- elles veillent au respect des règles dès la conception de l’offre.
+
+## 3.4. Accompagnement interne
+
+L’accompagnement peut prendre la forme :
+
+- d’interventions via la Fabrique ;
+- d’interventions via le Dojo ;
+- de temps de formation interne ;
+- d’accompagnements spécifiques auprès des pôles de formation et d’innovation ;
+- d’un appui du pôle Qualité et amélioration continue de la DDRF.
+
+---
+
+# 4. Principes de rédaction transversaux
+
+## 4.1. Concevoir l’ingénierie avant la notice
+
+Avant de créer une notice dans Noticia, il est indispensable d’avoir conçu l’ingénierie de formation.
+
+La description de l’offre doit être cohérente avec :
+
+- le besoin identifié ;
+- le public visé ;
+- les objectifs ;
+- les contenus ;
+- la durée ;
+- les modalités ;
+- les modalités d’évaluation, lorsqu’elles sont requises.
+
+## 4.2. Éviter les redondances
+
+Les champs doivent être complémentaires.
+
+Ne pas répéter à l’identique :
+
+- les objectifs dans les contenus ;
+- les objectifs dans le descriptif ;
+- le descriptif dans l’accroche ;
+- le titre dans l’accroche ;
+- les informations de format, de date, de lieu ou de public dans le titre.
+
+## 4.3. Règles orthotypographiques
+
+Les rédacteurs doivent se référer :
+
+- au présent Vadémécum ;
+- au document « L’essentiel des règles orthotypographiques » ;
+- aux règles communes de la charte orthotypographique de Réseau Canopé.
+
+---
+
+# 5. Onglet « Offre » — Noticia-GFAC
+
+## 5.1. Titre
+
+### Fonction
+
+Le titre doit être court, clair et attirer l’attention du public sans prendre la forme d’une accroche publicitaire.
+
+### Contraintes
+
+Le titre doit :
+
+- exprimer clairement la problématique ou l’angle de l’offre ;
+- rester compréhensible pour le public visé ;
+- respecter une longueur maximale de :
+  - **150 signes**, espaces compris, sur reseau-canope.fr ;
+  - **80 signes**, espaces compris, sur CanoTech.
+
+### Le titre ne doit pas :
+
+- prendre la forme d’un slogan ;
+- prendre la forme d’une question ;
+- commencer par un verbe ;
+- comporter de verbe conjugué ;
+- mentionner le format : atelier, formation, webinaire, etc. ;
+- mentionner une date ;
+- mentionner un lieu ;
+- mentionner le public ciblé ;
+- citer une marque ;
+- citer un outil spécifique ;
+- citer un dispositif local ;
+- utiliser un sigle méconnu du grand public ;
+- utiliser de guillemets ;
+- être trop général ou désigner une discipline entière.
+
+### Exemple de logique attendue
+
+Le titre doit mettre en avant :
+
+- un sujet ;
+- une problématique ;
+- un angle ;
+- une compétence ou un enjeu précis.
+
+Il ne doit pas être une accroche commerciale.
+
+## 5.2. Format
+
+Noticia propose huit formats d’activités :
+
+1. formation ;
+2. atelier ;
+3. animation ;
+4. conférence ;
+5. table ronde ;
+6. salon ;
+7. exposition ;
+8. concours.
+
+Le format doit être choisi en fonction de la nature réelle de l’offre et non uniquement en fonction de son intitulé commercial.
+
+## 5.3. Plateforme de publication
+
+Si le champ n’est pas renseigné, l’offre est automatiquement publiée sur **reseau-canope.fr**.
+
+Si une autre diffusion est souhaitée :
+
+- sélectionner la plateforme concernée ;
+- vérifier les règles propres à cette plateforme ;
+- contacter les responsables de la plateforme en cas de doute.
+
+Dans l’attente de développements ultérieurs de Noticia, une notice est rattachée à une seule plateforme.
+
+## 5.4. Plateformes de valorisation
+
+Ce champ est indiqué comme **non opérant actuellement**.
+
+Il ne doit pas être complété.
+
+## 5.5. Thématique
+
+Le champ thématique est obligatoire pour que l’offre soit visible sur reseau-canope.fr.
+
+### Thématiques disponibles
+
+- Bien-être à l’école ;
+- Coéducation ;
+- École inclusive ;
+- Éducation à la transition écologique et sociale ;
+- Éducation aux médias et à l’information ;
+- Éducation aux valeurs de la République ;
+- Numérique en éducation ;
+- Pratiques pédagogiques et méthodologiques ;
+- Sport à l’école.
+
+Chaque thématique peut être subdivisée en sous-thématiques.
+
+### Règles de choix
+
+- le sujet prime sur la méthode pédagogique ;
+- il est conseillé de ne pas sélectionner plus de deux thématiques ;
+- lorsqu’une sous-thématique est sélectionnée, la thématique générale correspondante est automatiquement cochée ;
+- pour décocher une thématique générale, aucune de ses sous-thématiques ne doit être sélectionnée.
+
+### Cas particulier de CanoTech
+
+Pour une offre destinée à CanoTech :
+
+1. se rapprocher d’un chef de projet national CanoTech ;
+2. puis contacter le pôle de formation et d’innovation de la direction territoriale concernée.
+
+## 5.6. Modalités de formation
+
+Trois modalités sont proposées :
+
+### En présence
+
+Offre réalisée en présentiel, dans un lieu identifié.
+
+### À distance
+
+Offre réalisée entièrement à distance.
+
+### En présence / à distance
+
+Offre hybride combinant présence et distance.
+
+## 5.7. Intensité
+
+Quatre niveaux d’intensité sont proposés.
+
+### Initiation
+
+Sessions de remise à niveau ou d’initiation à des compétences ou techniques transversales.
+
+### Perfectionnement
+
+Sessions destinées à des personnes déjà opérationnelles dans leur activité professionnelle, mais souhaitant :
+
+- approfondir leurs compétences ;
+- acquérir des compétences supplémentaires.
+
+L’intensité « perfectionnement » suppose obligatoirement une évaluation des prérequis au début de la formation.
+
+### Professionnalisation / expertise
+
+Sessions dont les objectifs sont proches de ceux d’une certification, mais qui ne donnent lieu à aucun diplôme, titre ou certificat inscrit au RNCP.
+
+### Certification
+
+Formation sanctionnée par le passage d’une certification, d’un diplôme, d’un titre ou d’un certificat de qualification professionnelle.
+
+Exemple cité dans le Vadémécum : PIX.
+
+## 5.8. Visa et cases à cocher
+
+Le visa « Comité de lecture » n’est plus attribué à partir de la rentrée 2025, en raison de l’arrêt des séances du comité de lecture.
+
+Un visa « Conforme au vadémécum en vigueur » doit être mis en place.
+
+Après apposition du visa :
+
+- les champs de la notice ne sont plus modifiables ;
+- le visa est apposé par le responsable compétent selon la direction ou le territoire ;
+- pour les offres internationales, il est apposé par les ingénieurs de formation de la DEI en charge de Noticia ;
+- en direction académique, il est apposé par le directeur académique ou le responsable formation de la direction académique.
+
+## 5.9. Mots-clés
+
+Les offres s’affichent en fonction des mots-clés indiqués dans la fiche Service Noticia.
+
+Les mots-clés doivent donc être :
+
+- pertinents ;
+- cohérents avec le contenu de l’offre ;
+- suffisamment explicites pour permettre sa recherche.
+
+---
+
+# 6. Onglet « Pédagogique » — Noticia
+
+## 6.1. Niveaux d’enseignement
+
+Un ou plusieurs niveaux peuvent être sélectionnés :
+
+- maternelle ;
+- élémentaire ;
+- collège ;
+- lycée ;
+- tous niveaux.
+
+## 6.2. Publics ciblés
+
+Le public ciblé correspond au public auquel l’offre est destinée.
+
+Plusieurs choix sont possibles.
+
+### Cas particuliers
+
+- **Tous publics** : concerne toute la communauté éducative.
+- **Autre** : concerne un public spécifique qui ne fait pas partie de la communauté éducative.
+
+Lorsqu’« Autre » est sélectionné, le public doit être précisé dans le descriptif.
+
+## 6.3. Prérequis
+
+Les prérequis correspondent aux connaissances nécessaires pour participer à la session.
+
+Les prérequis :
+
+- doivent être explicités lorsque cela est nécessaire ;
+- doivent être évalués au début de la formation ;
+- sont obligatoires pour une formation d’intensité « perfectionnement ».
+
+## 6.4. Objectifs
+
+### Formulation attendue
+
+Chaque objectif doit pouvoir compléter la phrase :
+
+> « À la fin de la formation, le stagiaire sera en capacité de… »
+
+### Nombre d’objectifs
+
+- prévoir **1 à 3 objectifs** selon la durée et l’ambition pédagogique ;
+- pour un format court, limiter à **1 ou 2 objectifs maximum** ;
+- privilégier la clarté et l’atteinte effective des résultats d’apprentissage.
+
+### Caractéristiques
+
+Les objectifs doivent :
+
+- être opérationnels ;
+- être observables ;
+- être évaluables ;
+- comporter un verbe d’action clair ;
+- refléter le niveau cognitif visé ;
+- être cohérents avec les contenus et les modalités d’évaluation.
+
+### Taxonomie de Bloom
+
+Les objectifs doivent être rédigés à l’aide de la taxonomie de Bloom.
+
+Les six niveaux présentés dans le Vadémécum sont :
+
+1. **Connaissance**  
+   Exemples : identifier, nommer, lister.
+
+2. **Compréhension**  
+   Exemples : expliquer, reformuler, illustrer.
+
+3. **Application**  
+   Exemples : utiliser, mettre en œuvre, manipuler.
+
+4. **Analyse**  
+   Exemples : comparer, distinguer, décomposer.
+
+5. **Évaluation**  
+   Exemples : critiquer, justifier, argumenter.
+
+6. **Création / synthèse**  
+   Exemples : concevoir, produire, inventer.
+
+### Verbes à éviter
+
+Ne pas utiliser, pour formuler un objectif opérationnel :
+
+- connaître ;
+- savoir ;
+- comprendre ;
+- découvrir.
+
+Ces verbes ne décrivent pas suffisamment une performance observable ou mesurable.
+
+### Exemples de verbes d’action
+
+Selon le niveau attendu, on peut notamment utiliser :
+
+- identifier ;
+- nommer ;
+- lister ;
+- repérer ;
+- décrire ;
+- reformuler ;
+- expliquer ;
+- illustrer ;
+- utiliser ;
+- manipuler ;
+- mettre en œuvre ;
+- appliquer ;
+- comparer ;
+- distinguer ;
+- analyser ;
+- décomposer ;
+- vérifier ;
+- contrôler ;
+- justifier ;
+- argumenter ;
+- évaluer ;
+- concevoir ;
+- produire ;
+- élaborer ;
+- construire ;
+- créer.
+
+## 6.5. Contenus
+
+Les contenus doivent :
+
+- être présentés sous forme de liste à puces ;
+- décrire précisément les sujets traités ;
+- être cohérents avec les objectifs ;
+- être cohérents avec les finalités de la session ;
+- éviter de répéter les objectifs ;
+- éviter de répéter le descriptif.
+
+Les contenus décrivent **ce qui sera traité**, et non les résultats attendus pour les participants.
+
+## 6.6. Modalités pédagogiques
+
+Les modalités pédagogiques correspondent à l’ensemble des modalités mises en œuvre pendant la session.
+
+Elles peuvent être combinées.
+
+### Exemples
+
+- mise en situation ;
+- retour sur expérience ;
+- partage de pratiques ;
+- travaux collaboratifs ;
+- individualisation de la formation ;
+- brainstorming ;
+- manipulation d’outils numériques ;
+- ludification ;
+- quiz ;
+- serious game ;
+- lecture de documents.
+
+Les modalités doivent être cohérentes avec :
+
+- le format ;
+- la durée ;
+- les objectifs ;
+- les contenus ;
+- le public.
+
+## 6.7. Modalités d’évaluation
+
+Ce champ est obligatoire uniquement dans le cadre d’une **formation**.
+
+Il faut prévoir au minimum deux évaluations :
+
+1. une évaluation diagnostique individuelle, en amont ou au démarrage de la formation ;
+2. une évaluation en fin de formation permettant d’apprécier l’atteinte des objectifs pédagogiques et de formation.
+
+Une évaluation en cours de formation peut également être proposée, notamment selon la durée de l’action.
+
+---
+
+# 7. Onglet « Commercial » — Noticia
+
+## 7.1. Accroche commerciale
+
+### Fonction
+
+L’accroche commerciale doit :
+
+- valoriser le contenu de l’offre ;
+- retenir l’attention de l’usager ;
+- donner envie de participer ;
+- être engageante.
+
+Elle peut notamment utiliser :
+
+- l’impératif ;
+- une phrase interrogative ;
+- une formulation directement adressée au public.
+
+### Contraintes
+
+L’accroche :
+
+- ne doit pas dépasser **300 signes**, espaces compris, sur reseau-canope.fr ;
+- ne doit pas dépasser **150 signes**, espaces compris, sur CanoTech ;
+- ne doit pas comprendre de sigles.
+
+### Distinction avec le titre
+
+Le titre informe et identifie l’offre.
+
+L’accroche commerciale attire l’attention et donne envie de s’inscrire.
+
+## 7.2. Descriptif
+
+### Fonction
+
+Le descriptif est le texte affiché sur la page de description de l’offre, sous le titre.
+
+Il est différent de l’accroche commerciale.
+
+### Caractéristiques
+
+Le descriptif doit :
+
+- être rédigé au présent ;
+- présenter ce qui sera proposé de manière chronologique ;
+- rester neutre ;
+- éviter les jugements promotionnels ;
+- résumer l’offre ;
+- respecter une limite de **600 signes**, espaces compris ;
+- mentionner, si nécessaire, les intervenants extérieurs et leur fonction.
+
+### Structure recommandée
+
+Le descriptif peut présenter successivement :
+
+1. le point de départ ou le sujet abordé ;
+2. les notions ou ressources présentées ;
+3. les activités, échanges ou manipulations proposés ;
+4. les principales pistes de mise en pratique.
+
+---
+
+# 8. Synthèse opérationnelle pour la création d’une notice
+
+## 8.1. Vérification du titre
+
+- [ ] Le titre est clair et précis.
+- [ ] Il ne commence pas par un verbe.
+- [ ] Il ne contient pas de verbe conjugué.
+- [ ] Il ne contient ni slogan ni question.
+- [ ] Il ne mentionne ni format, ni date, ni lieu, ni public.
+- [ ] Il ne cite pas de marque, d’outil ou de dispositif local.
+- [ ] Il respecte la limite de signes.
+
+## 8.2. Vérification de la classification
+
+- [ ] Le format correspond à la nature réelle de l’offre.
+- [ ] La plateforme de publication est correcte.
+- [ ] La ou les thématiques sont pertinentes.
+- [ ] Deux thématiques au maximum sont sélectionnées lorsque cela est possible.
+- [ ] La modalité est correcte.
+- [ ] L’intensité est cohérente avec le niveau attendu.
+
+## 8.3. Vérification des informations pédagogiques
+
+- [ ] Le niveau d’enseignement est renseigné.
+- [ ] Le public ciblé est renseigné.
+- [ ] Les prérequis sont précisés si nécessaire.
+- [ ] Les prérequis sont obligatoirement renseignés pour le perfectionnement.
+- [ ] Les objectifs sont formulés avec des verbes d’action.
+- [ ] Les objectifs sont observables et évaluables.
+- [ ] Les objectifs sont cohérents avec Bloom.
+- [ ] Les contenus sont précis et présentés sous forme de puces.
+- [ ] Les contenus ne répètent pas les objectifs.
+- [ ] Les modalités pédagogiques sont explicites.
+- [ ] Les évaluations sont renseignées lorsqu’il s’agit d’une formation.
+
+## 8.4. Vérification des champs commerciaux
+
+- [ ] L’accroche est engageante.
+- [ ] L’accroche ne contient pas de sigles.
+- [ ] L’accroche respecte la limite de signes.
+- [ ] Le descriptif est rédigé au présent.
+- [ ] Le descriptif suit une progression chronologique.
+- [ ] Le descriptif est neutre.
+- [ ] Le descriptif ne répète pas l’accroche ou les objectifs.
+- [ ] Le descriptif respecte la limite de 600 signes.
+
+---
+
+# 9. Annexe — Qualiopi et les actions de formation
+
+## 9.1. Cadre général
+
+La loi n° 2018-771 du 5 septembre 2018 prévoit une obligation de certification par un organisme tiers pour les organismes réalisant des actions concourant au développement des compétences lorsqu’ils souhaitent bénéficier de fonds publics ou mutualisés.
+
+Réseau Canopé est certifié Qualiopi depuis le 24 décembre 2021 au titre de l’action de formation.
+
+## 9.2. Définition d’une action de formation
+
+Une action de formation est un parcours pédagogique permettant d’atteindre un objectif professionnel.
+
+Elle peut être réalisée :
+
+- en présence ;
+- à distance ;
+- en situation de travail.
+
+## 9.3. Exigences principales
+
+Une action de formation doit viser un ou plusieurs objectifs pédagogiques dans le cadre d’un parcours de formation.
+
+Cela implique une véritable ingénierie pédagogique en amont de la formation.
+
+Le parcours doit respecter une progression logique conforme aux indicateurs du référentiel national Qualiopi.
+
+### Étapes essentielles citées dans le Vadémécum
+
+- analyse des besoins en amont de la formation — indicateur 4 ;
+- cohérence entre les objectifs de formation et les besoins identifiés — indicateur 5 ;
+- adéquation du contenu, de la durée et des modalités avec les objectifs visés — indicateur 6 ;
+- positionnement préalable des participants — indicateur 8 ;
+- évaluation des acquis d’apprentissage pour mesurer l’atteinte des objectifs — indicateur 11 ;
+- collecte des appréciations des participants à l’issue de la formation — indicateur 30.
+
+## 9.4. Distinguer formation et autres actions
+
+Tous les formats contribuant au développement professionnel ne répondent pas nécessairement à l’ensemble des critères Qualiopi.
+
+Il faut distinguer :
+
+- les actions de formation répondant aux exigences réglementaires ;
+- les séminaires ;
+- les conférences ;
+- les ateliers ;
+- les animations ;
+- les webinaires.
+
+Les séminaires et conférences peuvent contribuer au développement professionnel sans permettre nécessairement une évaluation formelle des acquis d’apprentissage.
+
+## 9.5. Règle d’application
+
+Les actions de formation proposées par Réseau Canopé dans le cadre de la formation professionnelle doivent respecter les exigences de qualité définies dans le référentiel Qualiopi.
+
+La démarche qualité repose notamment sur :
+
+- l’analyse des besoins ;
+- l’ingénierie de formation ;
+- la cohérence des objectifs ;
+- l’adéquation des contenus et des modalités ;
+- le positionnement des participants ;
+- l’évaluation des acquis ;
+- le recueil des appréciations.
+
+---
+
+# 10. Règles prioritaires à appliquer par un assistant IA
+
+Lorsqu’un assistant IA rédige une notice à partir d’un document source, il doit :
+
+1. utiliser le Vadémécum 4 comme référentiel principal ;
+2. identifier le format réel de l’offre avant de rédiger ;
+3. distinguer formation, atelier, animation, conférence et autres formats ;
+4. ne pas appliquer automatiquement toutes les exigences Qualiopi aux ateliers, animations, conférences ou webinaires ;
+5. rédiger un titre informatif, non publicitaire et sans verbe conjugué ;
+6. limiter le titre à 150 signes sur reseau-canope.fr et à 80 signes sur CanoTech ;
+7. rédiger les objectifs avec des verbes d’action observables et évaluables ;
+8. s’appuyer sur la taxonomie de Bloom pour choisir le niveau cognitif ;
+9. éviter les verbes « connaître », « savoir », « comprendre » et « découvrir » dans les objectifs ;
+10. ne pas inventer de données absentes du document source ;
+11. demander une précision lorsque le public, la durée, la modalité, les prérequis, les objectifs ou les contenus sont inconnus ;
+12. présenter les contenus sous forme de puces ;
+13. rédiger une accroche commerciale engageante, sans sigles ;
+14. rédiger un descriptif chronologique, neutre et au présent ;
+15. vérifier les limites de signes de chaque champ ;
+16. éviter toute répétition entre titre, accroche, descriptif, objectifs et contenus ;
+17. signaler explicitement les informations manquantes ou à confirmer ;
+18. ne pas considérer le dépôt d’un document dans un dossier `knowledge/` comme une preuve qu’il est automatiquement consulté : le système doit effectivement charger, indexer ou rechercher le contenu.
+
+
 `;
