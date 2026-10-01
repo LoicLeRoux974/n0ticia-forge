@@ -148,8 +148,9 @@ function Index() {
   async function choisirFichier(f: File | undefined) {
     setErreurFichier("");
     if (!f) return;
-    if (f.type !== "application/pdf") {
-      setErreurFichier("Seuls les fichiers PDF sont acceptés.");
+    const estTxt = f.type === "text/plain" || f.name.toLowerCase().endsWith(".txt");
+    if (f.type !== "application/pdf" && !estTxt) {
+      setErreurFichier("Seuls les fichiers PDF ou TXT sont acceptés.");
       return;
     }
     if (f.size > 10 * 1024 * 1024) {
@@ -204,7 +205,7 @@ function Index() {
             <input
               ref={inputRef}
               type="file"
-              accept="application/pdf"
+              accept="application/pdf,text/plain,.txt"
               className="hidden"
               onChange={(e) => void choisirFichier(e.target.files?.[0])}
             />
@@ -217,7 +218,7 @@ function Index() {
               <div className="space-y-2">
                 <Upload className="mx-auto size-6 text-primary" />
                 <p className="text-sm font-medium text-foreground">
-                  Déposez le document PDF de votre proposition (programme, grandes idées...)
+                  Déposez le document PDF ou TXT de votre proposition (programme, grandes idées...)
                 </p>
                 <p className="text-xs text-muted-foreground">ou cliquez pour parcourir (10 Mo max)</p>
               </div>
