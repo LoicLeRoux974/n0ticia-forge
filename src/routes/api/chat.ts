@@ -65,9 +65,17 @@ export const Route = createFileRoute("/api/chat")({
           fetch: runIdFetch.fetch,
         });
 
+        const [{ VADEMECUM_TEXT }, { BLOOM_TEXT }, { normaliserTexteReference }] =
+          await Promise.all([
+            import("@/lib/vademecum.server"),
+            import("@/lib/bloom.server"),
+            import("@/lib/noticia.functions"),
+          ]);
+        const system = `${SYSTEM_PROMPT}\n\nRéponds en t'appuyant en priorité sur les référentiels ci-dessous. Si la réponse n'y figure pas, dis-le.\n\n---\n\nVADÉMÉCUM 4 (texte complet) :\n\n${normaliserTexteReference(VADEMECUM_TEXT)}\n\n---\n\nTAXONOMIE DE BLOOM (texte complet) :\n\n${normaliserTexteReference(BLOOM_TEXT)}`;
+
         const result = streamText({
           model: lovable.responses("openai/gpt-6-astra"),
-          system: SYSTEM_PROMPT,
+          system,
           messages: await convertToModelMessages(messages as UIMessage[]),
           providerOptions: {
             openai: {
