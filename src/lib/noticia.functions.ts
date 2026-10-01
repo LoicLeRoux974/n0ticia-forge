@@ -113,13 +113,23 @@ ${OUTPUT_INSTRUCTIONS}`,
     ];
 
     if (data.fileData) {
-      content.push({
-        type: "file",
-        file: {
-          filename: data.fileName || "document.pdf",
-          file_data: data.fileData,
-        },
-      });
+      const estTxt = (data.fileName || "").toLowerCase().endsWith(".txt");
+      if (estTxt) {
+        const base64 = data.fileData.split(",")[1] || "";
+        const contenuTxt = Buffer.from(base64, "base64").toString("utf-8");
+        content.push({
+          type: "text",
+          text: `\nContenu du document source (${data.fileName || "document.txt"}) :\n${contenuTxt}`,
+        });
+      } else {
+        content.push({
+          type: "file",
+          file: {
+            filename: data.fileName || "document.pdf",
+            file_data: data.fileData,
+          },
+        });
+      }
     }
 
     const res = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
