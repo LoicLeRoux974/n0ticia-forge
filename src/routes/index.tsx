@@ -178,16 +178,25 @@ function Index() {
       <header className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground/70">
-          ...
+            R3SEAU CANOP3 &middot; N0TICIA &amp; VAD3M3CUM 4
           </p>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             Générateur de fiche N0ticia
           </h1>
-          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Déposez le document PDF de votre proposition (programme, grandes idées...)&nbsp;
-            <br />
-            L'assistant rédige une notice complète conforme aux spécifications N0ticia : titre, accroche, descriptif, objectifs pédagogiques et prérequis.
-          </p>
+          <div className="mt-3 max-w-2xl space-y-2 text-sm leading-relaxed text-muted-foreground">
+            <p>
+              Déposez votre proposition de formation au format PDF ou TXT (programme, grandes
+              idées, notes…).
+            </p>
+            <p>
+              L’assistant génère une notice N0ticia complète : titre, accroche, descriptif,
+              objectifs pédagogiques et prérequis.
+            </p>
+            <p>
+              Besoin d’aide pour rédiger votre notice ? Un chatbot assistant N0ticia peut vous
+              accompagner dans sa conception.
+            </p>
+          </div>
         </div>
       </header>
 
