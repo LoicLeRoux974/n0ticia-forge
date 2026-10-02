@@ -177,10 +177,7 @@ function Index() {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground/70">
-            R3SEAU CANOP3 &middot; N0TICIA &amp; VAD3M3CUM 4
-          </p>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+          <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             Générateur de fiche N0ticia
           </h1>
           <div className="mt-3 max-w-2xl space-y-2 text-sm leading-relaxed text-muted-foreground">
