@@ -85,8 +85,7 @@ export const genererNotice = createServerFn({ method: "POST" })
     if (!apiKey) throw new Error("Clé d'accès à l'IA manquante.");
 
     const { NOTICIA_SYSTEM_PROMPT } = await import("./noticia-prompt.server");
-    const { VADEMECUM_TEXT } = await import("./vademecum.server");
-    const { BLOOM_TEXT } = await import("./bloom.server");
+    const { REFERENTIELS_TEXT } = await import("./referentiels.server");
 
     if (!data.fileData && !data.texte?.trim()) {
       throw new Error("Ajoutez un document PDF ou un texte descriptif.");
@@ -144,7 +143,7 @@ ${OUTPUT_INSTRUCTIONS}`,
         messages: [
           {
             role: "system",
-            content: `${normaliserTexteReference(NOTICIA_SYSTEM_PROMPT)}\n\n---\n\nEXTRAIT DU VADÉMÉCUM 4 (référence réglementaire) :\n\n${normaliserTexteReference(VADEMECUM_TEXT)}\n\n---\n\nTAXONOMIE DE BLOOM (référence complète pour les objectifs pédagogiques) :\n\n${normaliserTexteReference(BLOOM_TEXT)}`,
+            content: `${normaliserTexteReference(NOTICIA_SYSTEM_PROMPT)}\n\n---\n\nRÉFÉRENTIELS NOTICIA (textes complets) :\n\n${normaliserTexteReference(REFERENTIELS_TEXT)}`,
           },
           { role: "user", content },
         ],
